@@ -1,4 +1,35 @@
+body{
+    display: flex;
+    font-family: Arial,sans-serif ;
+    background-color:#f4f7fa;
+}
+.sidebar{
+    background-color: #1e90ff ;
+    position: fixed;
+    width: 220px;
+    height: 100vh;
+    color: white;
+    padding: 20px;
+    top: 0;
+    left: 0;
+}
+.sidebar h2{
+    font-size: 22px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li{
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
 .sidebar ul li img {
     width: 20px;
     height: 20px;
-  }
+}
